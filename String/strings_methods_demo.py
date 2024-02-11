@@ -43,6 +43,7 @@ sonuc = 'Contents'.rjust(50,'*')
 # 9- 'kursAdi' karakter dizisindeki tüm boşluk karakterlerini '-' ile değiştirin.
 sonuc = kursAdi.replace(' ','-')
 
+
 # 10-'Hello World' karakter dizisinin 'World' ifadesini 'There' olarak değiştirin
 sonuc = 'Hello World'.replace('World','There')
 

@@ -4,10 +4,10 @@
 pi = 3.14
 x = float(input("Lütfen bir yari çap Giriniz"))
 alan = pi * (x ** 2)
-print("Dairenin Alanı: " , alan)
+print("Dairenin Alanı: ", alan)
 
 cevre = 2 * pi * x
-print("Dairenin Çevresi: " , cevre)
+print("Dairenin Çevresi: ", cevre)
 
 print("*******************************************")
 # Bir aracın km cinsinden gittiği yol bilgisini mil olarak yazdırınız.

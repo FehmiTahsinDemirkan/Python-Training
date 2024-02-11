@@ -7,4 +7,5 @@ print(2*2)
 print(10/2)
 print((3+5)*6/2)
 print((12//5)**2)
-print(8//2)
+
+print(8 // 2)

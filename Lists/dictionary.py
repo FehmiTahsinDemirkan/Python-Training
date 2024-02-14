@@ -7,7 +7,7 @@
 
 # 41 => Kocaeli
 # 34 => İstanbul
-
+#TEST LİNE
 sehirler = ['kocaeli','istanbul']
 plakalar = [41,34]
 

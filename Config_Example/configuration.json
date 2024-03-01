@@ -1,0 +1,12 @@
+{
+    "urls": [
+      "https://ornekweb1.com",
+      "https://ornekweb2.com",
+      "https://ornekweb3.com"
+    ],
+    "admin": "ornek1@eposta.com",
+    "destinationEmails": [
+        "ornek2@eposta.com",
+        "ornek3@eposta.com",
+        "ornek4@eposta.com" ]
+}

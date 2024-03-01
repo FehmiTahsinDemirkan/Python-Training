@@ -1,4 +1,18 @@
+import datetime
 def toplam():
-    print(f"Toplam: {10+20}")
+ return 10+20
 
-toplam()
+sonuc = toplam() +50
+
+# print(sonuc)
+
+def simdi(): 
+   return datetime.datetime.now().hour
+
+def yil():
+    return simdi()-1983
+sonuc = yil()
+print("")
+
+def selamla():
+   print("")

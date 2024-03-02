@@ -19,7 +19,7 @@ def toplam(*args):
 print(toplam(10,20,30))
 print(toplam(10,20,30,40))
 
-print(a)
+
 
 
 

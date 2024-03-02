@@ -21,7 +21,7 @@ sonuc = any([sayi%2==0 for sayi in sayilar])
 kisiler = ["ali","ahmet","çınar"]
 
 sonuc = any([kisi[0]=='a' for kisi in kisiler])
-print(sonuc)
+
 sonuc = all([kisi[0]=='a' for kisi in kisiler if kisi[0]=='a'])
-print(sonuc)
+
 

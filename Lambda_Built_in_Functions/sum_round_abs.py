@@ -2,7 +2,6 @@ sayilar = [34,2,5,7,98]
 
 sonuc = sum(sayilar)
 sonuc = sum(sayilar, 10)
-print(sonuc)
 urunler = [
     {"title":"iphone x", "price": 5000},
     {"title":"iphone xr", "price": 6000},

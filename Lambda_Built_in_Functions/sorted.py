@@ -17,7 +17,7 @@ sonuc = sorted(users, key=len)
 sonuc = sorted(users, key=len, reverse=True)
 sonuc = sorted(users, key=lambda user: user["username"])
 sonuc = sorted(users, key=lambda  user: len(user["tweets"]))
-print(sonuc)
+
 
 kurslar = [
     {"title":"python kursu","students":25000},

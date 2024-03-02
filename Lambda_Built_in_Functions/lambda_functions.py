@@ -8,7 +8,6 @@ sonuc = toplama(1,4,7)
 tersCevir = lambda s: s[::-1]
 sonuc = tersCevir("Sadık")
 
-print(sonuc)
 def myFunc(n):
     return lambda a: a * n
 

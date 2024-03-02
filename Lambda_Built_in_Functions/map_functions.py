@@ -23,9 +23,7 @@ sonuc = list(map(abs, sayilar))
 
 sonuc = list(map(float, sayilar))
 sonuc = list(map(len, isimler))
-print(sonuc)
 sonuc = list(map(str.capitalize, isimler))
-print(sonuc)
 sonuc = list(map(str.lower, isimler))
 sonuc = list(map(lambda x: x["ad"], kullanicilar))
 

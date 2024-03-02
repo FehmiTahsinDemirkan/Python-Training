@@ -41,9 +41,7 @@ To get the most out of this course, all you need is:
 
 Sadık Turan, a seasoned web developer and instructor, will guide you through this Python programming journey, providing clear explanations and hands-on examples to help you grasp the concepts effectively.
 
-## Get Started
 
-Ready to dive into the world of Python programming with Sadık Turan? Clone or download this repository to access the code notes and resources provided throughout the course. Let's start coding and learning together!
 
 ---
 

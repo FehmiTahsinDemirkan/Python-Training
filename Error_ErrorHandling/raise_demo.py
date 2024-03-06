@@ -22,8 +22,7 @@
 #         print(x)
 
 # 2- Girilen parola içinde türkçe karakter hatası veriniz.
-while True: 
-    def parolaKontrol(parola):
+def parolaKontrol(parola):
         turkce_karakterler = "şçğüöıİ"
 
         for i in parola:
@@ -32,10 +31,8 @@ while True:
 
             print('geçerli parola')
         
-    parola = input('parola: ')
-    break
-    try:
-        parolaKontrol(parola)
-    except TypeError as e:
-        print(e)
-       
+parola = input('parola: ')
+try:
+    parolaKontrol(parola)
+except TypeError as e:
+   print(e)

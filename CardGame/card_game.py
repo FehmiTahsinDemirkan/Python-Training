@@ -19,6 +19,9 @@ class Deste:
     def __init__(self):
         self.kartlar = [Kart(tip,deger) for tip in Deste.tipler for deger in Deste.degerler]
 
+    def __iter__(self):
+        return iter(self.kartlar)
+
     def kartSayisi(self):
         return len(self.kartlar)
 
@@ -44,15 +47,6 @@ class Deste:
 
 deste1 = Deste()
 
-deste1.kartlariKaristir()
-
-print(deste1.kartAt())
-
-print(deste1.kartDagit(5))
-print(deste1.kartlar)
-print(deste1.kartSayisi())
-print(deste1.kartDagit(3))
-print(deste1.kartSayisi())
-
-print(deste1.kartlar)
+for kart in deste1:
+    print(kart)
 
